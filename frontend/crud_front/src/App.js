@@ -118,7 +118,7 @@ function App() {
         <button onClick={getEmployees}>Show Employees</button>
        
         {employeeList.map((val, key) => {
-         
+         return(
             <div className="employee">                                {/* div of one employee*/}
             
             <list val = {val}></list>                                 {/*  Separate list component to return employee list , left side div */}
@@ -150,7 +150,7 @@ function App() {
             </button>
             </div>
             </div>
-          
+          );
         })}
       </div>
     </div>
