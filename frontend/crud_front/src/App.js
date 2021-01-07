@@ -121,7 +121,7 @@ function App() {
          return(
             <div className="employee">                                {/* div of one employee*/}
             
-            <list val = {val}></list>                                 {/*  Separate list component to return employee list , left side div */}
+            <List val = {val}></List>                                 {/*  Separate list component to return employee list , left side div */}
             
             <div>                                                      {/* Right side div*/}
             
