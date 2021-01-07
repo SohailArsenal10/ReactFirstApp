@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function list({val}) {
+export default function List({val}) {
     return (
         
         <div>
